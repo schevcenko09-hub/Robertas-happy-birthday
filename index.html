@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101827">
+<title>С юбилеем! 65 лет</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#101827;color:#fff5df;font-family:Georgia,serif;line-height:1.8}
+.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:45px 20px;background:radial-gradient(ellipse at 50% 30%,#34445d,#101827 70%);position:relative;overflow:hidden}
+.hero:before{content:"✦　 ·　 ✧　 ·　 ✦";position:absolute;top:8%;left:0;width:100%;color:#e5c27b;letter-spacing:18px;font-size:20px}
+.inner{max-width:700px;position:relative}
+.gold{color:#e5c27b}
+.eyebrow{font:12px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:#e5c27b}
+.photo{width:190px;height:190px;object-fit:cover;object-position:center 35%;border-radius:50%;padding:5px;border:1px solid #e5c27b;margin:28px auto;display:block;box-shadow:0 0 45px #e5c27b25}
+.age{font-size:65px;color:#e5c27b;line-height:1.2}
+.age small{display:block;font:11px Arial,sans-serif;letter-spacing:5px;text-transform:uppercase}
+h1{font-size:clamp(45px,9vw,76px);line-height:1.05;font-weight:normal;margin:20px 0}
+.intro{color:#c4cbd6;font-size:18px;max-width:530px;margin:20px auto 30px}
+.btn{display:inline-block;background:#e5c27b;color:#101827;padding:13px 24px;border:1px solid #e5c27b;text-decoration:none;font:12px Arial,sans-serif;letter-spacing:1px;cursor:pointer}
+.btn:hover{background:transparent;color:#e5c27b}
+section{padding:75px 22px}
+.content{max-width:720px;margin:auto}
+.label{text-align:center;color:#e5c27b;font:11px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase}
+h2{text-align:center;font-size:clamp(30px,6vw,44px);font-weight:normal;line-height:1.3;margin:15px 0 30px}
+.message{font-size:18px;color:#d7deea}
+.signature{color:#e5c27b;font-style:italic;font-size:21px;margin-top:30px}
+.wishes{background:#172337;border-top:1px solid #e5c27b22;border-bottom:1px solid #e5c27b22}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:35px}
+.card{border:1px solid #e5c27b40;padding:25px 18px;text-align:center}
+.symbol{font-size:27px;color:#e5c27b}
+.card h3{font-size:21px;font-weight:normal;color:#e5c27b;margin:5px}
+.card p{font:14px/1.8 Arial,sans-serif;color:#c4cbd6;margin:5px 0}
+.final{text-align:center;padding-top:90px;padding-bottom:90px}
+.lithuanian{font-size:clamp(23px,5vw,33px);color:#e5c27b;margin-top:30px}
+.translation{font:13px Arial,sans-serif;color:#c4cbd6}
+#surprise{display:none;border:1px solid #e5c27b66;padding:25px;margin:25px auto;max-width:500px;font-size:18px}
+#surprise.show{display:block;animation:appear .7s ease}
+footer{text-align:center;border-top:1px solid #ffffff15;padding:25px;color:#94a0b3;font:12px/2 Arial,sans-serif}
+#confetti{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:5}
+@keyframes appear{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:520px){.photo{width:155px;height:155px}.grid{grid-template-columns:1fr}.message{font-size:16px}section{padding:60px 20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<header class="hero">
+<div class="inner">
+<div class="eyebrow">Особенный день · Ypatinga diena</div>
+<img class="photo" src="papa.jpg" alt="Наш именинник">
+<div class="age">65<small>лет прекрасной жизни</small></div>
+<h1>С днём<br><span class="gold">рождения!</span></h1>
+<p class="intro">Сегодня особенный день человека, которого хочется поздравить от всего сердца.</p>
+<a class="btn" href="#greeting">ВАШЕ ПОЗДРАВЛЕНИЕ ↓</a>
+</div>
+</header>
+
+<main>
+<section id="greeting">
+<div class="content">
+<div class="label">От всего сердца</div>
+<h2>Дорогой именинник!</h2>
+<div class="message">
+<p>65 лет — прекрасный повод оглянуться назад с гордостью, улыбнуться настоящему и с интересом посмотреть в будущее.</p>
+<p>От всей души желаю Вам крепкого здоровья, душевного спокойствия, семейного тепла и как можно больше счастливых дней.</p>
+<p>Пусть впереди будет много путешествий, новых впечатлений, приятных встреч и моментов, которые хочется сохранить в памяти навсегда.</p>
+<p>Пусть близкие радуют, дома всегда ждут, а каждый новый год жизни приносит хорошие новости, силы, энергию и поводы для улыбки.</p>
+<p>Желаю, чтобы рядом всегда были люди, с которыми можно разделить радость, поговорить по душам и просто хорошо провести время.</p>
+<p>Спасибо Вам за то, что Вы воспитали замечательную дочь. Для меня большая честь поздравить Вас с этим прекрасным юбилеем.</p>
+</div>
+<div class="signature">С искренним уважением и самыми тёплыми пожеланиями!</div>
+</div>
+</section>
+
+<section class="wishes">
+<div class="content">
+<div class="label">Самое важное в жизни</div>
+<h2>Мои пожелания Вам</h2>
+<div class="grid">
+<div class="card"><div class="symbol">✦</div><h3>Здоровья</h3><p>Бодрости, сил и энергии на долгие счастливые годы.</p></div>
+<div class="card"><div class="symbol">♡</div><h3>Семейного тепла</h3><p>Любви родных, уютных вечеров и радостных встреч.</p></div>
+<div class="card"><div class="symbol">✧</div><h3>Счастья</h3><p>Побольше улыбок, хороших новостей и светлых дней.</p></div>
+<div class="card"><div class="symbol">⌁</div><h3>Новых открытий</h3><p>Красивых путешествий, впечатлений и исполнения мечт.</p></div>
+</div>
+</div>
+</section>
+
+<section class="final">
+<div class="content">
+<div class="label">Gražiausi linkėjimai</div>
+<h2>Пусть всё самое прекрасное будет впереди!</h2>
+<p class="message">65 лет — это не просто цифра. Это опыт, мудрость, воспоминания и целая жизнь, в которой впереди ещё столько интересного.</p>
+<div class="lithuanian">Su 65-uoju gimtadieniu!</div>
+<p class="translation">С 65-летием! Здоровья, счастья и долгих лет жизни!</p>
+<button class="btn" id="surpriseBtn" style="margin-top:25px">ОТКРЫТЬ ОСОБОЕ ПОЖЕЛАНИЕ ✨</button>
+<div id="surprise" aria-live="polite">
+Пусть однажды, оглядываясь на прожитые годы, Вы сможете сказать: «Как же прекрасно я жил!» И пусть впереди будет ещё очень много поводов произнести эти слова.
+<br><br><span class="gold">Su meile ir pagarba!</span><br>
+<small>С теплом и уважением!</small>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+Sukurta su pagarba ir nuoširdumu<br>
+Создано с уважением и от души<br>
+С наилучшими пожеланиями в Ваш 65-й день рождения
+</footer>
+
+<script>
+const canvas=document.getElementById('confetti');
+const ctx=canvas.getContext('2d');
+let particles=[],frameId;
+
+function resize(){
+ const dpr=Math.min(devicePixelRatio||1,2);
+ canvas.width=innerWidth*dpr;
+ canvas.height=innerHeight*dpr;
+ canvas.style.width=innerWidth+'px';
+ canvas.style.height=innerHeight+'px';
+ ctx.setTransform(dpr,0,0,dpr,0,0);
+}
+function celebrate(){
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ resize();
+ particles=Array.from({length:110},()=>({
+ x:Math.random()*innerWidth,
+ y:-20-Math.random()*innerHeight*.5,
+ r:2+Math.random()*3,
+ s:1+Math.random()*3,
+ d:(Math.random()-.5)*1.5,
+ c:Math.random()>.3?'#e5c27b':'#fff0cb'
+ }));
+ cancelAnimationFrame(frameId);
+ let n=0;
+ function draw(){
+  ctx.clearRect(0,0,innerWidth,innerHeight);
+  for(const p of particles){
+   p.y+=p.s;p.x+=p.d;
+   ctx.fillStyle=p.c;
+   ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();
+  }
+  if(++n<200)frameId=requestAnimationFrame(draw);
+  else ctx.clearRect(0,0,innerWidth,innerHeight);
+ }
+ draw();
+}
+addEventListener('resize',resize);
+resize();
+addEventListener('load',()=>setTimeout(celebrate,400));
+document.getElementById('surpriseBtn').addEventListener('click',()=>{
+ const el=document.getElementById('surprise');
+ el.classList.toggle('show');
+ document.getElementById('surpriseBtn').textContent=
+ el.classList.contains('show')?'С ТЕПЛОМ И УВАЖЕНИЕМ ❤️':'ОТКРЫТЬ ОСОБОЕ ПОЖЕЛАНИЕ ✨';
+ if(el.classList.contains('show'))celebrate();
+});
+</script>
+</body>
+</html>
